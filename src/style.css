@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(#e66465, #9198e5);
   background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
 }
 
 .search-form {
@@ -63,7 +64,7 @@ body {
 
 .photo-card img {
   width: 100%;
-  height: auto;
+  height: 200px;
   display: block;
 }
 
@@ -105,4 +106,12 @@ body {
 .load-more:hover {
   background-color: #f00;
   color: #000;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 20px;
 }
